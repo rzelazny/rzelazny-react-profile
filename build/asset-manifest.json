@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/rzelazny-react-profile/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/rzelazny-react-profile/static/js/main.c437c4c1.chunk.js",
-    "main.js.map": "/rzelazny-react-profile/static/js/main.c437c4c1.chunk.js.map",
+    "main.js": "/rzelazny-react-profile/static/js/main.dc1fb2df.chunk.js",
+    "main.js.map": "/rzelazny-react-profile/static/js/main.dc1fb2df.chunk.js.map",
     "runtime-main.js": "/rzelazny-react-profile/static/js/runtime-main.f4cb2c41.js",
     "runtime-main.js.map": "/rzelazny-react-profile/static/js/runtime-main.f4cb2c41.js.map",
-    "static/js/2.1ea5d6bc.chunk.js": "/rzelazny-react-profile/static/js/2.1ea5d6bc.chunk.js",
-    "static/js/2.1ea5d6bc.chunk.js.map": "/rzelazny-react-profile/static/js/2.1ea5d6bc.chunk.js.map",
+    "static/js/2.816979f3.chunk.js": "/rzelazny-react-profile/static/js/2.816979f3.chunk.js",
+    "static/js/2.816979f3.chunk.js.map": "/rzelazny-react-profile/static/js/2.816979f3.chunk.js.map",
     "index.html": "/rzelazny-react-profile/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/rzelazny-react-profile/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.1ea5d6bc.chunk.js.LICENSE.txt": "/rzelazny-react-profile/static/js/2.1ea5d6bc.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/rzelazny-react-profile/static/media/logo.6ce24c58.svg"
+    "static/js/2.816979f3.chunk.js.LICENSE.txt": "/rzelazny-react-profile/static/js/2.816979f3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f4cb2c41.js",
-    "static/js/2.1ea5d6bc.chunk.js",
+    "static/js/2.816979f3.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.c437c4c1.chunk.js"
+    "static/js/main.dc1fb2df.chunk.js"
   ]
 }
