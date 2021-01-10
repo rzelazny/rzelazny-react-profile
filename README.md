@@ -1,2 +1,3 @@
-# rzelazny-react-profile
-My profile page, now in glorious React.js.
+# Zelazny Portfolio Page
+
+My portfolio page, now in glorious React.js. 
