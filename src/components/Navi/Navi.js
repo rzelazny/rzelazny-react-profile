@@ -16,7 +16,7 @@ const Navi = props => {
         <div>
             <Navbar color="faded" expand="md" dark>
                 <NavbarBrand href="" className="mr-auto">
-                    React Data
+                    Ryan Zelazny
             </NavbarBrand>
                 <NavbarToggler onClick={() => toggle(!isOpen)} className="mr-2" />
                 <Collapse isOpen={isOpen} navbar>
