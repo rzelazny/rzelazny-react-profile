@@ -1,3 +1,7 @@
+html{
+    max-width: 99%;
+}
+
 body{
     background-image: url("./components/images/background2.jpg");
     background-size: cover;
@@ -17,7 +21,7 @@ h2{
     border-width: 2px;
     border-radius: 0px 0px 20px 20px;
     padding: 10px;
-    min-width: 800px;
+    min-width: 768px;
     max-width: 1000px;
 }
 

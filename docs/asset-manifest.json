@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/rzelazny-react-profile/static/css/main.a0720e27.chunk.css",
-    "main.js": "/rzelazny-react-profile/static/js/main.b498de89.chunk.js",
-    "main.js.map": "/rzelazny-react-profile/static/js/main.b498de89.chunk.js.map",
+    "main.css": "/rzelazny-react-profile/static/css/main.2695b47b.chunk.css",
+    "main.js": "/rzelazny-react-profile/static/js/main.1050f490.chunk.js",
+    "main.js.map": "/rzelazny-react-profile/static/js/main.1050f490.chunk.js.map",
     "runtime-main.js": "/rzelazny-react-profile/static/js/runtime-main.f4cb2c41.js",
     "runtime-main.js.map": "/rzelazny-react-profile/static/js/runtime-main.f4cb2c41.js.map",
-    "static/js/2.db6e1ed1.chunk.js": "/rzelazny-react-profile/static/js/2.db6e1ed1.chunk.js",
-    "static/js/2.db6e1ed1.chunk.js.map": "/rzelazny-react-profile/static/js/2.db6e1ed1.chunk.js.map",
+    "static/js/2.47646d68.chunk.js": "/rzelazny-react-profile/static/js/2.47646d68.chunk.js",
+    "static/js/2.47646d68.chunk.js.map": "/rzelazny-react-profile/static/js/2.47646d68.chunk.js.map",
     "index.html": "/rzelazny-react-profile/index.html",
-    "static/css/main.a0720e27.chunk.css.map": "/rzelazny-react-profile/static/css/main.a0720e27.chunk.css.map",
-    "static/js/2.db6e1ed1.chunk.js.LICENSE.txt": "/rzelazny-react-profile/static/js/2.db6e1ed1.chunk.js.LICENSE.txt",
-    "static/media/GitHub.69ffd9cd.png": "/rzelazny-react-profile/static/media/GitHub.69ffd9cd.png",
+    "static/css/main.2695b47b.chunk.css.map": "/rzelazny-react-profile/static/css/main.2695b47b.chunk.css.map",
+    "static/js/2.47646d68.chunk.js.LICENSE.txt": "/rzelazny-react-profile/static/js/2.47646d68.chunk.js.LICENSE.txt",
+    "static/media/GitHub.9179d64a.png": "/rzelazny-react-profile/static/media/GitHub.9179d64a.png",
     "static/media/LinkedIn.712c4ce3.png": "/rzelazny-react-profile/static/media/LinkedIn.712c4ce3.png",
     "static/media/PSU.750f6577.png": "/rzelazny-react-profile/static/media/PSU.750f6577.png",
+    "static/media/Zelazny_Resume.910d32fe.pdf": "/rzelazny-react-profile/static/media/Zelazny_Resume.910d32fe.pdf",
     "static/media/index.css": "/rzelazny-react-profile/static/media/inner_background.2db3b249.png",
-    "static/media/headshot.fb6461d3.jpg": "/rzelazny-react-profile/static/media/headshot.fb6461d3.jpg"
+    "static/media/employee_directory.9409e713.png": "/rzelazny-react-profile/static/media/employee_directory.9409e713.png",
+    "static/media/headshot.fb6461d3.jpg": "/rzelazny-react-profile/static/media/headshot.fb6461d3.jpg",
+    "static/media/navi.css": "/rzelazny-react-profile/static/media/nav_background.44b4e17e.png",
+    "static/media/socialUnderground.1bf6247f.png": "/rzelazny-react-profile/static/media/socialUnderground.1bf6247f.png",
+    "static/media/weatherDashboard.d88f255f.png": "/rzelazny-react-profile/static/media/weatherDashboard.d88f255f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f4cb2c41.js",
-    "static/js/2.db6e1ed1.chunk.js",
-    "static/css/main.a0720e27.chunk.css",
-    "static/js/main.b498de89.chunk.js"
+    "static/js/2.47646d68.chunk.js",
+    "static/css/main.2695b47b.chunk.css",
+    "static/js/main.1050f490.chunk.js"
   ]
 }
