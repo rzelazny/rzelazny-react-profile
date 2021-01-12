@@ -13,7 +13,7 @@ function About() {
             <Row>
                 {/* <!-- Headshot column --> */}
                 <Col md="3">
-                    <img src={Headshot} alt="Ryan Zelazny headshot" className="img-fluid mx-auto d-block" />
+                    <img src={Headshot} alt="Ryan Zelazny headshot" className="img-fluid mx-auto d-block" id="headshot"/>
                 </Col>
                 {/* <!-- About me text column --> */}
                 <Col md="9">
