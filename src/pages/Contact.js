@@ -22,12 +22,12 @@ function Contact() {
                         <h2>Contact Me</h2>
                         <hr />
                     </header>
-                    <p>You can contact me via email at RyanZelazny@gmail.com or via a message on LinkedIn or GitHub</p>
+                    <p>You can contact me via email at RyanZelazny@gmail.com or message me on LinkedIn or GitHub:</p>
                     <br />
                     {/* <!-- Contact Row 1 --> */}
                     <Row>
                         <Col xs="1">
-                            <img src={GitHub} className="img-fluid icon" alt="GitHub icon" />
+                            <img src={GitHub} className="img-fluid mx-auto d-block link-icon" alt="GitHub icon" />
                         </Col>
                         <Col xs="11">
                             <a href="https://github.com/rzelazny" target="_blank">My GitHub profile</a>
@@ -37,7 +37,7 @@ function Contact() {
                     {/* <!-- Contact Row 2 --> */}
                     <Row>
                         <Col xs="1">
-                            <img src={LinkedIn} className="img-fluid mx-auto d-block icon" alt="LinkedIn Icon" />
+                            <img src={LinkedIn} className="img-fluid mx-auto d-block link-icon" alt="LinkedIn Icon" />
                         </Col>
                         <Col xs="11">
                             <a href="https://www.linkedin.com/in/ryan-zelazny/" target="_blank">My LinkedIn profile</a>

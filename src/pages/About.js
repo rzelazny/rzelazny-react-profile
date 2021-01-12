@@ -25,7 +25,7 @@ function About() {
                     <header>
                         <h2>Experience and Skills</h2>
                     </header>
-                    <p>Ten years of experience in the insurance industry has left me with more than just coding experience. I'm able to bridge the communication gap between highly technical
+                    <p>Ten years working in the insurance industry has left me with more than coding experience. I'm able to bridge the communication gap between highly technical
                             users and less tech saavy business users.</p>
                     <p>I'm used to working with tight deadlines that can shift abruptly with new regulations. It's made me flexible and skilled at adjusting project plans on the fly.</p>
                     <header>
@@ -50,7 +50,7 @@ function About() {
                         </Col>
                     </Row>
                     <h2>Technologies and Languages</h2>
-                    <p>NodeJS, Express, Bootstrap, StepWise, JavaScript, CSS, SQL, JSON, VBA</p>
+                    <p>React, Node, Express, Bootstrap, JavaScript, SQL, NoSQL, StepWise, VBA</p>
                 </Col>
             </Row>
         </Container>

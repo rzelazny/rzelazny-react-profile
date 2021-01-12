@@ -14,16 +14,16 @@ const Navi = props => {
 
     return (
         <div>
-            <Navbar color="faded" expand="md" dark>
-                <NavbarBrand href="" className="mr-auto">
+            <Navbar className="naviBar" expand="md" light>
+                <NavbarBrand href="/" className="mr-auto" id="brand">
                     Ryan Zelazny
-            </NavbarBrand>
+                </NavbarBrand>
                 <NavbarToggler onClick={() => toggle(!isOpen)} className="mr-2" />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
                             <NavLink exact className="nav-link" to="/">
-                                About
+                                About 
                 </NavLink>
                         </NavItem>
                         <NavItem>
