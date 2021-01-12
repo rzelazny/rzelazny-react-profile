@@ -1,0 +1,81 @@
+#portfolio,
+#contact{
+    display:none;
+}
+body{
+    background-image: url("./components/images/background2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 20px;
+}
+h2{
+    font-weight: bolder;
+    color: Black;
+    /* -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: darkgray; */
+}
+.container{
+    background-image: url("./components/images/inner_background.png");
+    border: darkgray;
+    border-style: ridge;
+    border-width: 2px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.section{
+    padding: 10px;
+}
+/* Home page headshot image */
+#headshot{
+    margin: 20px;
+    
+}
+.icon{
+    max-width: 40px;
+    max-height: 40px;
+    padding-left: 10px;
+}
+.card{
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+}
+
+.carousel-caption{
+    font-size: 20px;
+    color: black;
+}
+
+  /* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+/* Modify screen layout fpr md size screens */
+@media screen and (max-width: 768px) {
+
+    /* Add margin and center headers on mobile */
+    .header{
+        margin-top: 20px;
+        text-align: center;
+    }    
+}
+
+/* Modify layout for xs size screens */
+@media screen and (max-width: 576px) {
+
+    /* Add margin and center headers on mobile  */
+    .header{
+        margin-top: 20px;
+        text-align: center;
+    }
+}

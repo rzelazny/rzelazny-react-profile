@@ -1,15 +1,17 @@
 import React, { useEffect, useState } from "react";
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, Media} from 'reactstrap';
+
 
 
 function About() {
 
     return (
-        <Container fluid>
+        <Container fluid className="container">
             <Row>
                 {/* <!-- Headshot column --> */}
                 <div md="3">
-                    <img id="headshot" src="../components/images/headshot.jpg" class="img-fluid mx-auto d-block" alt="Ryan Zelazny headshot" />
+                    <img src="./components/images/headshot.jpg" alt="Ryan Zelazny headshot" />
+                    <img id="headshot" src="../" className="img-fluid mx-auto d-block" alt="Ryan Zelazny headshot" />
                 </div>
                 {/* <!-- About me text column --> */}
                 <Col md="9">
@@ -18,7 +20,7 @@ function About() {
                         <hr />
                     </header>
                     <p>A software developer by trade, I live in upstate New York with my wife and two dogs. I enjoy cooking, board games with friends, and the occasional trip abroad when there isn't a global pandemic.</p>
-                    <p>Recently I've been expanding my skill set. Through Rutger University's coding bootcamp, I've been learning about full stack development. We're currently studying NoSQL and MongoDB. </p>
+                    <p>Recently I've been expanding my skill set. Through Rutger University's coding bootcamp, I've been learning about full stack development. We're currently studying React.js. </p>
                     <header>
                         <h2>Experience and Skills</h2>
                     </header>
