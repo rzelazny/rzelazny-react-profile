@@ -10,7 +10,7 @@ function Footer(props) {
         `}>
             <br />
             <br />
-            <h6>© Ryan Zelazny 2021</h6>
+            <h6>© Ryan Zelazny 2021 - Made with React.js</h6>
         </div>
     );
 }
