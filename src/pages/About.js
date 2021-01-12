@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Media} from 'reactstrap';
 
-
+import Headshot from "../components/images/headshot.jpg";
+import Rutgers from "../components/images/Rutgers.png";
+import PSU from "../components/images/PSU.png";
 
 function About() {
 
@@ -9,10 +11,9 @@ function About() {
         <Container fluid className="container">
             <Row>
                 {/* <!-- Headshot column --> */}
-                <div md="3">
-                    <img src="./components/images/headshot.jpg" alt="Ryan Zelazny headshot" />
-                    <img id="headshot" src="../" className="img-fluid mx-auto d-block" alt="Ryan Zelazny headshot" />
-                </div>
+                <Col md="3">
+                    <img src={Headshot} alt="Ryan Zelazny headshot" className="img-fluid mx-auto d-block" />
+                </Col>
                 {/* <!-- About me text column --> */}
                 <Col md="9">
                     <header>
@@ -33,7 +34,7 @@ function About() {
                     {/* <!-- Education Row 1 --> */}
                     <Row>
                         <Col md="1">
-                            <img src="../components/images/Rutgers.png" className="img-fluid mx-auto d-block icon" alt="Rutgers Icon" />
+                            <img src={Rutgers} className="img-fluid mx-auto d-block icon" alt="Rutgers Icon" />
                         </Col>
                         <Col md="11">
                             <p>Rutgers University - Coding Bootcamp</p>
@@ -42,7 +43,7 @@ function About() {
                     {/* <!-- Education Row 2 --> */}
                     <Row>
                         <Col md="1">
-                            <img src="../components/images/PSU.png" className="img-fluid mx-auto d-block icon" alt="PSU Icon" />
+                            <img src={PSU} className="img-fluid mx-auto d-block icon" alt="PSU Icon" />
                         </Col>
                         <Col md="11">
                             <p>Pennsylvania State University - Bachelor of Information Science and Technology</p>
