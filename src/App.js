@@ -1,21 +1,17 @@
 import React from "react";
+import { HashRouter, Route, Link } from "react-router-dom";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
-import NoMatch from "./pages/NoMatch";
-import Nav from "./components/Nav";
-
-//fix for gh-pages upload issue
-const BASE_NAME = "/";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
-  return (
-    <div>
-      <Nav />
-      <About />
-    </div>
-
-  );
+    return (
+        <div>
+        <Navbar />
+          
+        </div>
+    );
 }
 
 export default App;
+

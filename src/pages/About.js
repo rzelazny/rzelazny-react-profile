@@ -3,7 +3,6 @@ import { Col, Row, Container } from "../components/Grid";
 
 
 function About() {
-   
 
     return (
         <Container fluid>
