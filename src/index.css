@@ -21,37 +21,6 @@ h2{
     max-width: 1000px;
 }
 
-.naviBar{
-    background-image: url("./components/images/nav_background.png");
-    /* background-image: url("./components/images/inner_background.png"); */
-} 
-
-#brand{
-    color: black;
-    font-weight: bolder;
-    -webkit-text-stroke-width: .2px;
-    -webkit-text-stroke-color: salmon;
-    font-size: 30px;
-}
-
-.nav-link{
-    color: black;
-    font-size: 30px;
-}
-
-.download-btn{
-    background-color: DodgerBlue;
-    border-radius: 5px;
-    color: white;
-    cursor: pointer;
-    padding: 12px 16px;
-}
-
-  /* Darker background on mouse-over */
-.download-btn:hover {
-    background-color: RoyalBlue;
-}
-
 /* Home page headshot image */
 #headshot{
     margin: 20px;

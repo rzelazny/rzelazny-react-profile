@@ -8,6 +8,7 @@ import {
     Nav,
     NavItem
 } from 'reactstrap';
+import "./navi.css";
 
 const Navi = props => {
     const [isOpen, toggle] = useState(false);
