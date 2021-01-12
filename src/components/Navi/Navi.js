@@ -1,40 +1,46 @@
-import React from 'react';
-import { Collapse,
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import {
+    Collapse,
     Navbar,
     NavbarToggler,
     NavbarBrand,
     Nav,
-    NavLink,
-    NavItem } from 'reactstrap';
-import { HashRouter, Route, Link } from "react-router-dom";
-import About from "../../pages/About";
-import Projects from '../../pages/Projects';
-import Contact from '../../pages/Contact';
-import NoMatch from '../../pages/NoMatch';
+    NavItem
+} from 'reactstrap';
 
+const Navi = props => {
+    const [isOpen, toggle] = useState(false);
 
-const Navi = (props) => {
     return (
         <div>
-            <HashRouter basename="/">
-                <Nav>
-                    <NavItem>
-                        <NavLink><Link href="/" to="/">About</Link></NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink><Link href="/projects" to="/projects">Projects</Link> </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink><Link href="/contact" to="/contact">Contact Me</Link> </NavLink>
-                    </NavItem>
-                </Nav>
-                <Route exact path="/" component={About} />
-                <Route exact path="/projects" component={Projects} />
-                <Route exact path="/contact" component={Contact} />
-                {/* <Route component={NoMatch} /> */}
-            </HashRouter>
+            <Navbar color="faded" expand="md" dark>
+                <NavbarBrand href="" className="mr-auto">
+                    React Data
+            </NavbarBrand>
+                <NavbarToggler onClick={() => toggle(!isOpen)} className="mr-2" />
+                <Collapse isOpen={isOpen} navbar>
+                    <Nav className="ml-auto" navbar>
+                        <NavItem>
+                            <NavLink exact className="nav-link" to="/">
+                                About
+                </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink exact className="nav-link" to="/projects">
+                                Projects
+                </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink exact className="nav-link" to="/contact">
+                                Contact
+                </NavLink>
+                        </NavItem>
+                    </Nav>
+                </Collapse>
+            </Navbar>
         </div>
     );
-}
+};
 
 export default Navi;
