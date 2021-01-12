@@ -1,17 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
 import { Col, Row, Container } from "../components/Grid";
 
 
 function About() {
-    const [book, setBook] = useState({})
-
-
-    const { id } = useParams();
-
-    useEffect(() => {
-
-    }, [])
+   
 
     return (
         <Container fluid>
@@ -27,7 +19,7 @@ function About() {
             </Row>
             <Row>
                 <Col size="md-2">
-                    <Link to="/">← Back to Authors</Link>
+                    <a to="/">← Back to Authors</a>
                 </Col>
             </Row>
         </Container>
