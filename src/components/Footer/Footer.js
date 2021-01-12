@@ -1,9 +1,13 @@
 import React from "react";
 
 
-function Footer() {
+function Footer(props) {
     return (
-        <div>
+        <div className={`
+            row 
+            justify-content-${props.justify || 'center'}
+            align-items-${props.align || 'center'}
+        `}>
             <h6>© Ryan Zelazny 2021</h6>
         </div>
     );

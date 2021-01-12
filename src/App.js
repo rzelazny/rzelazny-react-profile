@@ -7,7 +7,6 @@ function App() {
   return (
     <Container fluid>
       <Navbar />
-      <Footer />
     </Container>
   );
 }

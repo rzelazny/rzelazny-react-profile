@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Media} from 'reactstrap';
+import Footer from "../components/Footer/Footer.js";
 
 import Headshot from "../components/images/headshot.jpg";
 import Rutgers from "../components/images/Rutgers.png";
@@ -53,6 +54,7 @@ function About() {
                     <p>NodeJS, Express, Bootstrap, StepWise, JavaScript, CSS, SQL, JSON, VBA</p>
                 </Col>
             </Row>
+            <Footer />
         </Container>
     );
 }
