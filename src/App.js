@@ -8,7 +8,6 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
 
-
 function App() {
   return (<div>
     <HashRouter basename="/">

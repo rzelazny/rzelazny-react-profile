@@ -101,7 +101,7 @@ const ProjectCarousel = (props) => {
                 onExited={() => setAnimating(false)}
                 key={item.src}
             >
-                <img src={item.src} alt={item.altText} />
+                <img className="d-block w-100" src={item.src} alt={item.altText} />
                 <CarouselCaption captionText={item.caption} captionHeader={item.header} />
             </CarouselItem>
         );

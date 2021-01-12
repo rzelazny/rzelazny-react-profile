@@ -3,14 +3,16 @@ import { Container, Row, Col } from 'reactstrap';
 
 import GitHub from "../components/images/GitHub.png";
 import LinkedIn from "../components/images/LinkedIn.png";
-
+import DownloadBtn from "../components/DownloadBtn/DownloadBtn";
 
 function Contact() {
 
-    function downloadResume(){
-        // event.preventDefault();
-        window.location.href = "./assets/files/Zelazny Resume.pdf";
-    }
+    // function downloadResume(response) {
+    //     // event.preventDefault();
+    //     //<a href="../components/files/Zelazny Resume.pdf" download />
+    //     //window.location.href = "../components/files/Zelazny Resume.pdf";
+    //     fileDownload(data, 'filename.csv');
+    // }
 
     return (
         <Container fluid className="container">
@@ -44,8 +46,9 @@ function Contact() {
                     <br />
                 </Col>
             </Row>
-            <div class="text-center">
-                <a href="#" class="btn" id="resume-download" onClick={downloadResume}><i class="fa fa-download"></i> Download Resume</a>
+            <div className="text-center">
+                <DownloadBtn />
+                {/* <a href="#/contact" class="btn" id="resume-download" onClick={downloadResume}><i class="fa fa-download"></i> Download Resume</a> */}
                 <br />
             </div>
         </Container>
