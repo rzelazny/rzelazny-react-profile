@@ -21,11 +21,11 @@ const Navbar = (props) => {
                         <NavLink><Link href="/contact" to="/contact">Contact Me</Link> </NavLink>
                     </NavItem>
                 </Nav>
+                <hr />
                 <Route exact path="/" component={About} />
                 <Route path="/projects" component={Projects} />
                 <Route path="/contact" component={Contact} />
             </HashRouter>
-            <hr />
         </div>
     );
 }

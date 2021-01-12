@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Col, Row, Container } from "../components/Grid";
+import { Container, Row, Col } from 'reactstrap';
 
 
 function About() {
@@ -7,18 +7,47 @@ function About() {
     return (
         <Container fluid>
             <Row>
-                <Col size="md-10 md-offset-1">
-                    <article>
-                        <h1>Synopsis</h1>
-                        <p>
-                            test
-                        </p>
-                    </article>
-                </Col>
-            </Row>
-            <Row>
-                <Col size="md-2">
-                    <a to="/">← Back to Authors</a>
+                {/* <!-- Headshot column --> */}
+                <div md="3">
+                    <img id="headshot" src="../components/images/headshot.jpg" class="img-fluid mx-auto d-block" alt="Ryan Zelazny headshot" />
+                </div>
+                {/* <!-- About me text column --> */}
+                <Col md="9">
+                    <header>
+                        <h2>About Me</h2>
+                        <hr />
+                    </header>
+                    <p>A software developer by trade, I live in upstate New York with my wife and two dogs. I enjoy cooking, board games with friends, and the occasional trip abroad when there isn't a global pandemic.</p>
+                    <p>Recently I've been expanding my skill set. Through Rutger University's coding bootcamp, I've been learning about full stack development. We're currently studying NoSQL and MongoDB. </p>
+                    <header>
+                        <h2>Experience and Skills</h2>
+                    </header>
+                    <p>Ten years of experience in the insurance industry has left me with more than just coding experience. I'm able to bridge the communication gap between highly technical
+                            users and less tech saavy business users.</p>
+                    <p>I'm used to working with tight deadlines that can shift abruptly with new regulations. It's made me flexible and skilled at adjusting project plans on the fly.</p>
+                    <header>
+                        <h2>Education</h2>
+                    </header>
+                    {/* <!-- Education Row 1 --> */}
+                    <Row>
+                        <Col md="1">
+                            <img src="../components/images/Rutgers.png" className="img-fluid mx-auto d-block icon" alt="Rutgers Icon" />
+                        </Col>
+                        <Col md="11">
+                            <p>Rutgers University - Coding Bootcamp</p>
+                        </Col>
+                    </Row>
+                    {/* <!-- Education Row 2 --> */}
+                    <Row>
+                        <Col md="1">
+                            <img src="../components/images/PSU.png" className="img-fluid mx-auto d-block icon" alt="PSU Icon" />
+                        </Col>
+                        <Col md="11">
+                            <p>Pennsylvania State University - Bachelor of Information Science and Technology</p>
+                        </Col>
+                    </Row>
+                    <h2>Technologies and Languages</h2>
+                    <p>NodeJS, Express, Bootstrap, StepWise, JavaScript, CSS, SQL, JSON, VBA</p>
                 </Col>
             </Row>
         </Container>

@@ -1,16 +1,14 @@
 import React from "react";
-import { HashRouter, Route, Link } from "react-router-dom";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
-    return (
-        <div>
-        <Navbar />
-          
-        </div>
-    );
+  return (
+    <div>
+      <Navbar />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;

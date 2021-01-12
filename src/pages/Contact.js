@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Col, Row, Container } from "../components/Grid";
+import { Container, Row, Col } from 'reactstrap';
 
 
 function Contact() {
