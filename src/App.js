@@ -6,9 +6,12 @@ import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
 
+//fix for gh-pages upload issue
+const BASE_NAME = "/";
+
 function App() {
   return (
-    <Router>
+    <Router basename={`${BASE_NAME}`}>
       <Nav />
       <Switch>
         <Route exact path="/" component={About} />
