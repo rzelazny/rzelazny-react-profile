@@ -1,12 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from 'reactstrap';
-import Navbar from "./components/Navbar/Navbar";
+import Navi from "./components/Navi/Navi";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <Container fluid>
-      <Navbar />
+      <Navi />
+      <Footer />
     </Container>
+    
   );
 }
 
