@@ -21,7 +21,7 @@ function About() {
                         <hr />
                     </header>
                     <p>A software developer by trade, I live in upstate New York with my wife and two dogs. I enjoy cooking, board games with friends, and the occasional trip abroad when there isn't a global pandemic.</p>
-                    <p>Recently I've been expanding my skill set. Through Rutger University's coding bootcamp, I've been learning about full stack development. We're currently studying React.js. </p>
+                    <p>Recently I've been expanding my skill set. I've completed Rutgers University's full stack coding boot camp, and continue to work on my MERN stack skills. </p>
                     <header>
                         <h2>Experience and Skills</h2>
                     </header>
